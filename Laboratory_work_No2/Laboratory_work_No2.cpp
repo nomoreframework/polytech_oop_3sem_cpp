@@ -32,7 +32,7 @@ public:
 	const string i_demension = "Enter the dimension of the matrix";
 	const string i_inverse = "tr(A) of matrix = ";
 	const string o_matrix = "--- Your Matrix ---";
-	const string exit = "For exit press 'q' or '0'";
+	const string exit = "For exit press 'q'";
 
 	template<typename T>
 	T static read(T arg)
