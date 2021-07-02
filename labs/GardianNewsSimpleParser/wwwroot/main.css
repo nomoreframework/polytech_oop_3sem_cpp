@@ -1,0 +1,43 @@
+﻿body {
+    background-color: rgba(36, 213, 233, 0.3);
+}
+.flex-item{
+    justify-content: center;
+    display: flex;
+    border: 1px dashed rgba(20, 20, 20, 0.3);
+    width: 90%;
+    height: 50px;
+}
+.main-content{
+    justify-content: center;
+    display: flex;
+    padding: 5%;
+}
+.inp{
+    justify-content: center;
+    padding-top: 15px;
+}
+input{
+    height: 25px;
+}
+.search{
+    width: 500px;
+}
+#send{
+    height: 28px;
+    background-color: aqua;
+}
+.news{
+    justify-content: center;
+    display: flex;
+}
+.list{
+    width: 80%;
+    border: 1px dashed rgba(20, 20, 20, 0.3);
+}
+.concrete{
+    background-color: rgba(215, 230, 11, 0.7);
+    padding-top:10px;
+    margin-top: 10px;
+    border: 1px solid rgba(15, 228, 8, 0.3);
+}
