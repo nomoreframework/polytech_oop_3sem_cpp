@@ -13,6 +13,9 @@ public:
 		sq_matrix = matrix;
 		this->square_matrix_size = square_matrix_size;
 	}
+	~matrix()
+	{
+	}
 	int** get_matrix() { return sq_matrix; }
 	int get_trA()
 	{
@@ -90,6 +93,8 @@ int main ()
 	cout << c_w->o_matrix << endl;
 	console_worker::print_matrix(m.get_matrix(), size);
 	cout << c_w->i_inverse << m.get_trA() << "\n";
+	for(int i = 0; i < size; ++i)
+    delete[] arr[i];
 	delete[] arr;
 	char q = ' ';
 	while (q != 'q') { cin >> q; 	cout << c_w->exit << "\n";}
